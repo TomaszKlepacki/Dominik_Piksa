@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "localhost:8000/Dominik_Piksa",
+  pathPrefix: "/Dominik_Piksa",
   siteMetadata: {
     title: `Waxon Portfolio React Template`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
