@@ -32,7 +32,7 @@ const Project = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="button-group mt--60 justify-content-center">
-                            <a className="rn-button" href="#downloadbutton"><span>View All Works</span></a>
+                            
                         </div>
                     </div>
                 </div>

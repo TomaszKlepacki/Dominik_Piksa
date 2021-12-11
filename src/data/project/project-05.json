@@ -1,14 +1,14 @@
 {
     "id": "project-05",
-    "title": "The Mountain",
-    "category": "Design",
-    "client": "Arloko Corp",
-    "imgesBY": "Draxler",
+    "title": "Wsparcie okołourazowe",
+    "category": "Prewencja kontuzji oraz powrót do pełni sprawności i sportu po urazach",
+    "client": "200zł / godzina",
+    "imgesBY": "",
     "year": "2009 - 2019",
     "featured_image": "./images/project-05.jpg",
     "is_featured": true,
     "body": [
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "Powrót do pełni sprawności i sportu po urazach. Powrót po urazie do pełni sprawności i sportu wymaga stopniowego i odpowiedniego odbudowania tolerancji naszych tkanek na obciążanie. Dlatego tak ważny jest fachowy i odpowiedni dobór ćwiczeń. Niestety często w momencie gdy zacznie nas coś boleć zmniejszamy naszą aktywność do zera, odpoczywamy nie robiąc nic, a następnie wracamy na pełne obroty. Niestety nie jest to najlepsze rozwiązanie, ponieważ problem nie został rozwiązany, a nasz organizm nie jest gotowy na tak szybką zmianę obciążeń."
     ],
     "features": [
         {

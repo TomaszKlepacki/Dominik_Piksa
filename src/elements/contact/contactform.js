@@ -65,10 +65,10 @@ const ContactForm = ({url}) => {
                     id="name"
                     onChange={onChangeHandler}
                     ref={register({
-                        required: 'Full Name Required',
+                        required: 'Wymagane Imię i nazwisko',
                     })}
                 />
-                <label htmlFor="name">Full Name</label>
+                <label htmlFor="name">Imię i nazwisko</label>
                 {errors.name && <span className="error">{errors.name.message}</span>}
             </div>
 
@@ -79,14 +79,14 @@ const ContactForm = ({url}) => {
                     id="email"
                     onChange={onChangeHandler}
                     ref={register({
-                        required: 'Email Required',
+                        required: 'Wymagany Email',
                         pattern: {
                             value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                             message: "invalid email address"
                         }
                     })}
                 />
-                <label htmlFor="email">Enter Your Email</label>
+                <label htmlFor="email">Twój mail</label>
                 {errors.email && <span className="error">{errors.email.message}</span>}
             </div>
 
@@ -97,10 +97,10 @@ const ContactForm = ({url}) => {
                     id="subject"
                     onChange={onChangeHandler}
                     ref={register({
-                        required: 'Subject Required',
+                        required: 'Wymagany tytuł',
                     })}
                 /> 
-                <label htmlFor="subject">Subject</label> 
+                <label htmlFor="subject">Tytuł</label> 
                 {errors.subject && <span className="error">{errors.subject.message}</span>}
             </div>
 
@@ -110,18 +110,18 @@ const ContactForm = ({url}) => {
                     id="message"
                     onChange={onChangeHandler}
                     ref={register({
-                        required: 'Message Required',
+                        required: 'Wymagany tekst',
                         minLength: { value: 10, message: "Minimum length is 10" }
                     })}
                 >
                 </textarea>
-                <label htmlFor="message">Write your message here.</label> 
+                <label htmlFor="message">Tekst wiadomości</label> 
                 {errors.message && <span className="error">{errors.message.message}</span>}
             </div>
 
             <div className="form-submit">
                 <button className="rn-button" type="submit" disabled={serverState.submitting}>
-                    Send Message
+                    Wyślij
                 </button>
                 {serverState.status && (
                     <p className={`form-output ${!serverState.status.ok ? "errorMsg" : "success"}`}>

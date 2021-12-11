@@ -57,9 +57,7 @@ const HeaderNoSidebar = () => {
                     {/* Header Logo  */}
                     <div className="header-left">
                         <div className="logo">
-                            <Link to="/">
-                                <Img fixed={waxonLogo}  />
-                            </Link>
+                         <h3 className="title">DOMINIK PIKSA</h3>
                         </div>
                     </div>
                     {/* Main Menu  */}
@@ -82,7 +80,7 @@ const HeaderNoSidebar = () => {
                             <li>
                                 <a className="menu-hover-link" href="/#home" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="Home">Home</span>
+                                        <span data-text="Strona Główna">Strona Główna</span>
                                     </span>
                                 </a>
                             </li>
@@ -90,7 +88,7 @@ const HeaderNoSidebar = () => {
                             <li>
                                 <a className="menu-hover-link" href="/#about" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="About">About</span>
+                                        <span data-text="O mnie">O mnie</span>
                                     </span>
                                 </a>
                             </li>
@@ -98,7 +96,7 @@ const HeaderNoSidebar = () => {
                             <li>
                                 <a className="menu-hover-link" href="/#portfolio" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="Portfolio">Portfolio</span>
+                                        <span data-text="Oferta">Oferta</span>
                                     </span>
                                 </a>
                             </li>
@@ -114,14 +112,14 @@ const HeaderNoSidebar = () => {
                             <li>
                                 <a className="menu-hover-link" href="/#contact" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="Contact">Contact</span>
+                                        <span data-text="Kontakt">Kontakt</span>
                                     </span>
                                 </a>
                             </li>
                         </Scrollspy>
                     </div>
                     <div className="trigger_closer" onClick={onMenuToggleClick}>
-                        <span className="text">Close</span>
+                        <span className="text">Zamknij</span>
                         <span className="icon"></span>
                     </div>
                 </div>

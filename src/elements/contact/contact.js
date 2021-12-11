@@ -28,7 +28,7 @@ const Contact = () => {
                         <div className="section-title">
                             <h2 className="title">
                                 {Title}
-                                <span className="bg">Contact</span>
+                                <span className="bg">Kontakt</span>
                             </h2>
                         </div>
                     </div>
@@ -38,17 +38,17 @@ const Contact = () => {
                     {/* Start Contact Form  */}
                     <div className="col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div className="info">
-                            <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+                            <p>Koszt wizyty: 200 zł / godzina</p>
                         </div>
                         <Contactform url={getform_url} />
                     </div>
                     {/* End Contact Form  */}
 
-                    <div className="col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    {/* <div className="col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div className="contact-info-list-wrapper">
                             <GooglemapRn />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

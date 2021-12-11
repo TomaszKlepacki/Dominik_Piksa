@@ -43,9 +43,7 @@ const Header = () => {
                             <div className="col-lg-3">
                                 <div className="header-left">
                                     <div className="logo">
-                                        <Link to="/">
-                                            <Img fixed={waxonLogo}  />
-                                        </Link>
+                                        <h3 className="title">DOMINIK PIKSA</h3>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +56,7 @@ const Header = () => {
                                         <li>
                                             <a className="menu-hover-link" href="/#home">
                                                 <span className="hover-item">
-                                                    <span data-text="Home">Home</span>
+                                                    <span data-text="Strona Główna">Strona Główna</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -67,7 +65,7 @@ const Header = () => {
                                         <li>
                                             <a className="menu-hover-link" href="/#about">
                                                 <span className="hover-item">
-                                                    <span data-text="About">About</span>
+                                                    <span data-text="O mnie">O mnie</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -75,7 +73,7 @@ const Header = () => {
                                         <li>
                                             <a className="menu-hover-link" href="/#portfolio">
                                                 <span className="hover-item">
-                                                    <span data-text="Portfolio">Portfolio</span>
+                                                    <span data-text="Oferta">Oferta</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -91,7 +89,7 @@ const Header = () => {
                                         <li>
                                             <a className="menu-hover-link" href="/#contact">
                                                 <span className="hover-item">
-                                                    <span data-text="Contact">Contact</span>
+                                                    <span data-text="Kontakt">Kontakt</span>
                                                 </span>
                                             </a>
                                         </li>
